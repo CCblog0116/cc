@@ -1,0 +1,1 @@
+Sec English Notes - daily cybersecurity English learning blog. Powered by Quartz 5 + Obsidian.

@@ -1,5 +1,5 @@
 ---
-title: Daily Notes
+title: 全部笔记
 ---
 
-All daily English security learning notes, newest first.
+按日期归档的每日英语安全笔记，最新在前。

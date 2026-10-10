@@ -2,22 +2,58 @@
 title: Sec English Notes
 ---
 
-> 每天一篇英文安全文章，读新闻，也学英语。
-
-**Sec English Notes** 是一份每日更新的网络安全英语学习笔记：从当天最值得读的安全报道与漏洞分析出发，拆出词汇、句型和要点，配一段中文摘要收尾。
-
-## 怎么读
-
-- **[[posts/|全部笔记]]** — 按日期归档的全部文章
-- **词汇表** — 每篇 8-12 个安全术语，中英对照
-- **句型** — 从真实报道里提炼的可复用表达
-- **中文摘要** — 一分钟回顾核心内容
-
-## 专题路线
-
-| 阶段 | 主题 |
-| ---- | ---- |
-| Day 1-10 | 安全通识：CIA、钓鱼、勒索、零信任、MFA |
-| Day 11-30 | Web 与 API 安全：OWASP Top 10、注入、JWT |
-| Day 31-45 | 云、容器、DevSecOps 与蓝队基础 |
-| Day 46+ | APT、威胁狩猎、检测工程、事件响应 |
+- [[posts/2026-06-24-cybersecurity-intro|Day 01 · Cybersecurity Intro]]
+- [[posts/2026-06-25-phishing-deep-dive|Day 02 · Phishing Deep Dive]]
+- [[posts/2026-06-25-ransomware-kill-chain|Day 03 · Ransomware Kill Chain]]
+- [[posts/2026-07-10-password-hashing-salting|Day 04 · Password Hashing Salting]]
+- [[posts/2026-07-12-zero-trust-architecture|Day 05 · Zero Trust Architecture]]
+- [[posts/2026-07-13-multi-factor-authentication|Day 06 · Multi Factor Authentication]]
+- [[posts/2026-07-14-incident-response-basics|Day 07 · Incident Response Basics]]
+- [[posts/2026-07-15-social-engineering-beyond-phishing|Day 08 · Social Engineering Beyond Phishing]]
+- [[posts/2026-07-16-phishing-simulation-metrics|Day 09 · Phishing Simulation Metrics]]
+- [[posts/2026-07-17-iam-fundamentals|Day 10 · Identity and Access Management (IAM): The Four Pillars]]
+- [[posts/2026-07-04-owasp-top10|Day 11 · Owasp Top10]]
+- [[posts/2026-07-05-sql-injection|Day 12 · Sql Injection]]
+- [[posts/2026-07-06-xss-cross-site-scripting|Day 13 · Xss Cross Site Scripting]]
+- [[posts/2026-07-07-csrf-cross-site-request-forgery|Day 14 · Csrf Cross Site Request Forgery]]
+- [[posts/2026-07-08-idor-insecure-direct-object-reference|Day 15 · Idor Insecure Direct Object Reference]]
+- [[posts/2026-07-09-path-traversal|Day 16 · Path Traversal]]
+- [[posts/2026-07-24-security-misconfiguration|Day 17 · Security Misconfiguration: When Defaults Bite Back]]
+- [[posts/2026-08-31-vulnerable-outdated-components|Day 18 · Vulnerable and Outdated Components: The Supply Chain You Forgot to Patch]]
+- [[posts/2026-09-01-identification-authentication-failures|Day 19 · Identification and Authentication Failures: When the Front Door Lock Fails]]
+- [[posts/2026-09-02-software-data-integrity-failures|Day 20 · Software and Data Integrity Failures: Trust, But Verify]]
+- [[posts/2026-09-03-security-logging-monitoring-failures|Day 21 · Security Logging and Monitoring Failures: The Blind Spot That Costs Months]]
+- [[posts/2026-09-04-ssrf-server-side-request-forgery|Day 22 · Server-Side Request Forgery (SSRF): When Your Server Becomes the Attacker's Proxy]]
+- [[posts/2026-09-05-os-command-injection|Day 23 · OS Command Injection: When User Input Reaches the Shell]]
+- [[posts/2026-07-17-file-upload-vulnerabilities|Day 24 · File Upload Vulnerabilities]]
+- [[posts/2026-09-08-xxe-injection|Day 25 · XXE Injection: When XML Becomes a Weapon]]
+- [[posts/2026-09-09-business-logic-vulnerabilities|Day 26 · Business Logic Vulnerabilities: The Bugs Scanners Cannot Find]]
+- [[posts/2026-09-10-http-request-smuggling|Day 27 · HTTP Request Smuggling: The Vulnerability Hiding Between Your Proxies]]
+- [[posts/2026-09-11-insecure-deserialization|Day 28 · Insecure Deserialization: When Trusting Data Becomes RCE]]
+- [[posts/2026-09-14-jwt-attacks|Day 29 · JWT Attacks: When 'Trust' Becomes a Weapon]]
+- [[posts/2026-09-15-api-security-best-practices|Day 30 · API Security Best Practices: Building a Defensible API Surface]]
+- [[posts/2026-09-16-cloud-security-fundamentals|Day 31 · Cloud Security Fundamentals: Shared Responsibility, IAM, and Storage Risks]]
+- [[posts/2026-09-17-container-kubernetes-security|Day 32 · Container and Kubernetes Security: Images, Pods, and Cluster Hardening]]
+- [[posts/2026-09-18-ci-cd-devsecops-pipeline-security|Day 33 · CI/CD and DevSecOps Pipeline Security]]
+- [[posts/2026-09-19-secrets-management-credential-hygiene|Day 34 · Secrets Management and Credential Hygiene in Enterprise Environments]]
+- [[posts/2026-09-20-email-security-spf-dkim-dmarc|Day 35 · Email Security: SPF, DKIM, and DMARC]]
+- [[posts/2026-09-21-network-traffic-analysis-threat-detection|Day 36 · Network Traffic Analysis for Threat Detection]]
+- [[posts/2026-07-30-threat-intelligence-fundamentals|Day 37 · Threat Intelligence Fundamentals]]
+- [[posts/2026-07-31-digital-forensics-fundamentals|Day 38 · Digital Forensics Fundamentals]]
+- [[posts/2026-08-01-malware-analysis-fundamentals|Day 39 · Malware Analysis Fundamentals]]
+- [[posts/2026-08-02-edr-fundamentals|Day 40 · Edr Fundamentals]]
+- [[posts/2026-08-03-vulnerability-management-fundamentals|Day 41 · Vulnerability Management Fundamentals]]
+- [[posts/2026-08-04-penetration-testing-fundamentals|Day 42 · Penetration Testing Fundamentals]]
+- [[posts/2026-08-05-waf-fundamentals|Day 43 · Web Application Firewall (WAF) Fundamentals (Web 应用防火墙基础)]]
+- [[posts/2026-08-06-ddos-attack-and-mitigation|Day 44 · DDoS Attacks and Mitigation Fundamentals]]
+- [[posts/2026-08-07-soc-fundamentals|Day 45 · Security Operations Center (SOC) Fundamentals]]
+- [[posts/2026-08-08-anatomy-of-a-modern-apt-intrusion|Day 46 · Anatomy of a Modern APT Intrusion]]
+- [[posts/2026-08-09-apt-groups-attribution-threat-landscape|Day 47 · APT Groups, Attribution, and the Threat Actor Landscape]]
+- [[posts/2026-10-03-threat-hunting-iocs-to-behaviors|Day 48 · Threat Hunting for APT Activity: From IOCs to Behaviors]]
+- [[posts/2026-08-11-detection-engineering-sigma-rules|Day 49 · Detection Engineering: Writing Sigma Rules That Survive]]
+- [[posts/2026-08-12-purple-teaming-continuous-validation|Day 50 · Purple Teaming: Continuously Validating Your Detections]]
+- [[posts/2026-08-13-ransomware-incident-response|Day 51 · Ransomware Incident Response: From First Alert to Recovery]]
+- [[posts/2026-08-14-incident-communication-regulatory-reporting|Day 52 · Incident Communication and Regulatory Reporting: Who to Tell, When, and How]]
+- [[posts/2026-10-08-third-party-supply-chain-incident-response|Day 53 · Third-Party Risk and Supply Chain Incident Response: When Your Vendor Gets Breached]]
+- [[posts/2026-10-09-insider-threats-detecting-preventing-risk-within|Day 54 · Insider Threats: Detecting and Preventing the Risk from Within]]
+- [[posts/2026-10-10-software-dependency-supply-chain-security|Day 55 · Supply Chain Security for Software Dependencies: SBOM, SCA, and Vendor Trust]]

@@ -1,3 +1,112 @@
+@use "./base.scss";
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+/* ========== Sec English Notes · minimalist polish ========== */
+
+/* 阅读节奏：更舒适的正文字号与行距 */
+article {
+  font-size: 1.06rem;
+  line-height: 1.8;
+  letter-spacing: 0.005em;
+}
+
+/* 标题层次：轻量分隔线，不做作 */
+article h2 {
+  margin-top: 2.6rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--lightgray);
+  font-weight: 650;
+}
+
+article h3 {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+/* 链接：默认无下划线，悬停浮现 */
+article a.internal,
+article a.external {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+article a.internal:hover,
+article a.external:hover {
+  border-bottom: 1px solid var(--secondary);
+}
+
+/* 词汇表格：卡片化 + 斑马纹，长文里的视觉锚点 */
+article table {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  border: 1px solid var(--lightgray);
+}
+
+article table thead {
+  background: color-mix(in srgb, var(--secondary) 8%, var(--light));
+}
+
+article table th {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+article table tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--secondary) 3.5%, var(--light));
+}
+
+article table tbody tr:hover {
+  background: color-mix(in srgb, var(--secondary) 7%, var(--light));
+}
+
+/* 引用与提示块：左侧彩色描边 + 柔和底色 */
+article blockquote {
+  border-left: 3px solid var(--secondary);
+  background: color-mix(in srgb, var(--secondary) 5%, var(--light));
+  border-radius: 0 8px 8px 0;
+  padding: 0.9rem 1.2rem;
+  margin: 1.4rem 0;
+  color: var(--darkgray);
+}
+
+/* 行内代码：低调的药丸形 */
+article code {
+  background: color-mix(in srgb, var(--secondary) 8%, var(--light));
+  border-radius: 5px;
+  padding: 0.12em 0.4em;
+  font-size: 0.88em;
+}
+
+/* 文章元信息（日期/阅读时长）：更收敛 */
+.content-meta {
+  color: var(--gray);
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+}
+
+/* 页首标题区：收紧留白 */
+.article-title {
+  margin-bottom: 0.4rem;
+}
+
+/* 分割线：淡化收窄 */
+article hr {
+  border: none;
+  border-top: 1px solid var(--lightgray);
+  margin: 2.2rem auto;
+  width: 60%;
+}
+
+/* 列表页描述文字弱化 */
+.page-listing .section-li .section .desc {
+  color: var(--gray);
+}
+
+/* 深色模式微调：引用块与表格保持可读 */
+[saved-theme="dark"] article blockquote {
+  background: color-mix(in srgb, var(--secondary) 10%, var(--light));
+}
+[saved-theme="dark"] article table {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+}

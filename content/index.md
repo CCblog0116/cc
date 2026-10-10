@@ -2,14 +2,22 @@
 title: Sec English Notes
 ---
 
-Daily cybersecurity reads, rewritten as English learning notes.
+> 每天一篇英文安全文章，读新闻，也学英语。
 
-One article a day: original security news, key vocabulary, sentence patterns, and a short bilingual summary.
+**Sec English Notes** 是一份每日更新的网络安全英语学习笔记：从当天最值得读的安全报道与漏洞分析出发，拆出词汇、句型和要点，配一段中文摘要收尾。
 
-## Latest Notes
+## 怎么读
 
-Browse all entries under [[posts/]] or use the explorer on the left.
+- **[[posts/|全部笔记]]** — 按日期归档的全部文章
+- **词汇表** — 每篇 8-12 个安全术语，中英对照
+- **句型** — 从真实报道里提炼的可复用表达
+- **中文摘要** — 一分钟回顾核心内容
 
-- **Vocabulary** — security terms with pronunciation-friendly glosses
-- **Sentence Patterns** — reusable structures from real reporting
-- **Summary** — 中文摘要 for quick review
+## 专题路线
+
+| 阶段 | 主题 |
+| ---- | ---- |
+| Day 1-10 | 安全通识：CIA、钓鱼、勒索、零信任、MFA |
+| Day 11-30 | Web 与 API 安全：OWASP Top 10、注入、JWT |
+| Day 31-45 | 云、容器、DevSecOps 与蓝队基础 |
+| Day 46+ | APT、威胁狩猎、检测工程、事件响应 |

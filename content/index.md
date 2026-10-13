@@ -114,4 +114,10 @@ title: Sec English Notes
 
 <a class="dir-card" href="posts/2026-10-10-software-dependency-supply-chain-security"><span class="dir-day">Day 55</span><span class="dir-title">Supply Chain Security for Software Dependencies: SBOM, SCA, and Vendor Trust</span><span class="dir-date">2026-10-10</span></a>
 
+<a class="dir-card" href="posts/2026-10-11-ahsaycbs-auth-bypass-command-injection"><span class="dir-day">Day 56</span><span class="dir-title">AhsayCBS Flaws Chained for Webshells and Cryptomining</span><span class="dir-date">2026-10-11</span></a>
+
+<a class="dir-card" href="posts/2026-10-12-darksword-p7-ios-exploit-kit"><span class="dir-day">Day 57</span><span class="dir-title">P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Theft and Remote Commands</span><span class="dir-date">2026-10-12</span></a>
+
+<a class="dir-card" href="posts/2026-10-13-gitlab-regex-compiler-rce"><span class="dir-day">Day 58</span><span class="dir-title">GitLab Warns of Max-Severity RCE in CI/CD Regex Compiler (CVE-2026-97229)</span><span class="dir-date">2026-10-13</span></a>
+
 </div>

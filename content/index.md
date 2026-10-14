@@ -120,4 +120,6 @@ title: Sec English Notes
 
 <a class="dir-card" href="posts/2026-10-13-gitlab-regex-compiler-rce"><span class="dir-day">Day 58</span><span class="dir-title">GitLab Warns of Max-Severity RCE in CI/CD Regex Compiler (CVE-2026-97229)</span><span class="dir-date">2026-10-13</span></a>
 
+<a class="dir-card" href="posts/2026-10-14-microsoft-october-patch-tuesday-record"><span class="dir-day">Day 59</span><span class="dir-title">Microsoft October 2026 Patch Tuesday: Record 1,411 Flaws and an Actively Exploited MotW Zero-Day</span><span class="dir-date">2026-10-14</span></a>
+
 </div>

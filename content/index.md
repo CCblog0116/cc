@@ -122,4 +122,6 @@ title: Sec English Notes
 
 <a class="dir-card" href="posts/2026-10-14-microsoft-october-patch-tuesday-record"><span class="dir-day">Day 59</span><span class="dir-title">Microsoft October 2026 Patch Tuesday: Record 1,411 Flaws and an Actively Exploited MotW Zero-Day</span><span class="dir-date">2026-10-14</span></a>
 
+<a class="dir-card" href="posts/2026-10-15-oauth2-oidc-grants-scopes-pkce"><span class="dir-day">Day 60</span><span class="dir-title">OAuth 2.0 and OIDC In Depth: Grants, Scopes, PKCE, and Redirect-URI Pitfalls</span><span class="dir-date">2026-10-15</span></a>
+
 </div>

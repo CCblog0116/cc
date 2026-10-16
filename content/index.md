@@ -124,4 +124,6 @@ title: Sec English Notes
 
 <a class="dir-card" href="posts/2026-10-15-oauth2-oidc-grants-scopes-pkce"><span class="dir-day">Day 60</span><span class="dir-title">OAuth 2.0 and OIDC In Depth: Grants, Scopes, PKCE, and Redirect-URI Pitfalls</span><span class="dir-date">2026-10-15</span></a>
 
+<a class="dir-card" href="posts/2026-10-16-kerberos-active-directory-security"><span class="dir-day">Day 61</span><span class="dir-title">Kerberos and Active Directory Security: Tickets, Trust, and Domain Compromise</span><span class="dir-date">2026-10-16</span></a>
+
 </div>

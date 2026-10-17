@@ -126,4 +126,6 @@ title: Sec English Notes
 
 <a class="dir-card" href="posts/2026-10-16-kerberos-active-directory-security"><span class="dir-day">Day 61</span><span class="dir-title">Kerberos and Active Directory Security: Tickets, Trust, and Domain Compromise</span><span class="dir-date">2026-10-16</span></a>
 
+<a class="dir-card" href="posts/2026-10-17-ad-attack-paths-acl-delegation-bloodhound"><span class="dir-day">Day 62</span><span class="dir-title">AD Attack Paths: ACL Abuse, Delegation, and BloodHound</span><span class="dir-date">2026-10-17</span></a>
+
 </div>
